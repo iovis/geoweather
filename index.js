@@ -7,4 +7,4 @@ async function main() {
   console.log(`${temp}º`);
 }
 
-main();
+main().catch(process.exit);
