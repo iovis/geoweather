@@ -1,8 +1,10 @@
 const geoLocate = require('./src/geoLocate');
+const getTemperature = require('./src/getTemperature');
 
 async function main() {
   const { lat, lon } = await geoLocate();
-  console.log({ lat, lon });
+  const { main: { temp } } = await getTemperature(lat, lon);
+  console.log(`${temp}º`);
 }
 
 main();
