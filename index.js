@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const geoLocate = require('./src/geoLocate');
 const getTemperature = require('./src/getTemperature');
 

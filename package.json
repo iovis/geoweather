@@ -1,6 +1,6 @@
 {
   "name": "geoweather",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get the weather for the current location",
   "main": "index.js",
   "bin": {
