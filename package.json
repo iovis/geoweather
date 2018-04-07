@@ -1,13 +1,25 @@
 {
   "name": "geoweather",
-  "version": "1.0.0",
-  "description": "Get the weather for the current location in your touchbar!",
+  "version": "1.0.1",
+  "description": "Get the weather for the current location",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "geoweather": "./index.js"
   },
-  "author": "",
-  "license": "ISC",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iovis9/geoweather.git"
+  },
+  "keywords": ["weather", "geolocation"],
+  "author": "David Marchante <davidmarchan@gmail.com> (https://github.com/iovis9)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iovis9/geoweather/issues"
+  },
+  "homepage": "https://github.com/iovis9/geoweather",
   "dependencies": {
     "axios": "^0.18.0",
     "dotenv": "^5.0.1"
