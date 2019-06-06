@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iovis9/geoweather.git"
+    "url": "git+https://github.com/iovis/geoweather.git"
   },
   "keywords": ["weather", "geolocation"],
-  "author": "David Marchante <davidmarchan@gmail.com> (https://github.com/iovis9)",
+  "author": "David Marchante <davidmarchan@gmail.com> (https://github.com/iovis)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/iovis9/geoweather/issues"
+    "url": "https://github.com/iovis/geoweather/issues"
   },
-  "homepage": "https://github.com/iovis9/geoweather",
+  "homepage": "https://github.com/iovis/geoweather",
   "dependencies": {
     "axios": "^0.18.0",
     "dotenv": "^5.0.1"
